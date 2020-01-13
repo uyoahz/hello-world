@@ -21,6 +21,6 @@ steps:
 - script: sh hello.sh
   displayName: 'Run my script'
 
-- task: BatchScript@1
+- task: Bash@3
   inputs:
-    filename: 'hello.sh'
+    filePath: 'hello.sh'
